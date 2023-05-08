@@ -7,7 +7,7 @@ body {
 
 .back-gr-1 {
     background-color: white;
-    height: 600px;
+    height: auto;
 
 }
 
@@ -44,15 +44,55 @@ body {
 
         }
 
-            
-        }
-    .boxes-2{
-        img{
+
+    }
+
+    .boxes-2 {
+        img {
             width: 50px;
             height: 50px;
             display: flex;
             justify-content: space-between;
-            
+
         }
     }
+}
+
+.section-2 {
+    background-color: black;
+}
+
+.font-2 {
+    font-family: mehdi-style;
+}
+
+.clr-2 {
+    color: white;
+}
+
+@media (min-width : 320px) and (max-width : 426px) {
+    .section-2{
+        margin-top: 80px;
     }
+
+    .section-2-1 .size-1 {
+        width: 50px;
+
+    }
+
+    .section-2-1 img{
+        text-align: center;
+        width: 300px;
+    }
+    .section-2-2{
+        text-align: center;
+    }
+
+
+}
+@media (min-width : 767px) and (max-width : 1025px){
+.chef img{
+    width: 140px;
+}
+    
+}
