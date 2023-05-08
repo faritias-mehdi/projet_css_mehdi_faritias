@@ -18,7 +18,7 @@ $custom-colors : (
 $theme-colors : map-merge($theme-colors , $custom-colors);
 
 //& Notre valeur d'espace :
-$spacer : 20px ;
+$spacer : 10px ;
 
 $custom-spacers : (
     0 : 0 ,
@@ -26,7 +26,7 @@ $custom-spacers : (
     2 : $spacer*2 ,
     3 : $spacer*3 ,
     4 : $spacer*4 , 
-    5 : $spacer*5 ,
+    5 : $spacer*10 ,
     6 : $spacer*6 ,
     7 : $spacer*7 ,
     8 : $spacer*20 ,
