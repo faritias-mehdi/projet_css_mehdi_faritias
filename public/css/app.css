@@ -12895,7 +12895,7 @@ body {
 }
 
 .bg-2 {
-  background-image: url(../../../../public/img/testimonials_background.jpg);
+  background-image: url(../img/testimonials_background.jpg);
   color: white;
 }
 
@@ -13076,7 +13076,7 @@ i {
   }
 }
 .foot {
-  background-image: url(../../../../public/img/footer_background.jpg);
+  background-image: url(../img/footer_background.jpg);
   height: 400px;
   display: flex;
   justify-content: space-around;
