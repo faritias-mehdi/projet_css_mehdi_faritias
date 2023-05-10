@@ -16,9 +16,20 @@
     background-blend-mode: hue;
     background-color: rgba(31, 31, 31, 0.8);
     font-family: mehdi;
+    position: relative;
 
 
 }
+.repeat{
+    background-image: url(../../../../public/img/bottom_decoration_img.png);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 10px;
+    
+}
+
+
 
 
 .bg-1 {
@@ -158,12 +169,13 @@ ul li a:hover {
         justify-content: center;
         align-items: center;
         font-size: 15px;
-        
+
 
     }
-    .liste{
+
+    .liste {
         margin-top: 13px;
-    } 
+    }
 
     ul {
         display: flex;
@@ -228,5 +240,5 @@ ul li a:hover {
         margin-top: 20px;
         font-family: mehdi;
     }
+    
 }
-
